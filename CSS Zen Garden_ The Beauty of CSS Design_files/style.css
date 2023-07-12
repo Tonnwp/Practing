@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+
+
+/**
+ * author: ณวพน ลีลานวลิขิต
+ * ID: 6410450893
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #001233;
+}
+
+/* .section-content.preamble p:nth-child(3) {
+    color: red;
+} */
+
+.intro h1 {
+    display: flex;
+    height: 100px;
+    animation: rainbow 4s linear;
+    animation-iteration-count: infinite;
+    text-align: center;
+    font-size: 50px;
+    border: 1px solid red;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes rainbow{
+    100%,0%{
+        color: rgb(255,0,0);
+    }
+    8%{
+        color: rgb(255,127,0);
+    }
+    16%{
+        color: rgb(255,255,0);
+    }
+    25%{
+        color: rgb(127,255,0);
+    }
+    33%{
+        color: rgb(0,255,0);
+    }
+    41%{
+        color: rgb(0,255,127);
+    }
+    50%{
+        color: rgb(0,255,255);
+    }
+    58%{
+        color: rgb(0,127,255);
+    }
+    66%{
+        color: rgb(0,0,255);
+    }
+    75%{
+        color: rgb(127,0,255);
+    }
+    83%{
+        color: rgb(255,0,255);
+    }
+    91%{
+        color: rgb(255,0,127);
+    }
+}
+
+.intro h2 {
+    margin-top: 50px;
+    text-align: center;
+    background-color: #CAC0B3;
+}
+
+.section-content.summary {
+    background-color: #CAC0B3;
+    border: 1px solid purple;
+}
+
+.section-content.summary p {
+    text-align: center;
+}
+
+.section-content.preamble  {
+    margin-top: 50px;
+    border: 1px solid red;
+    height: 300px;
+    text-align: center;
+    background-color: #CAC0B3;
+}
+
+.section-content.preamble p{
+    width:700px;
+    border: 1px solid yellow;
+    padding-top: 15px;
+    margin-left: 25%;
+}
+
+.section-content.explanation {
+    margin-top: 50px;
+    border: 1px solid red;
+    height: 300px;
+    text-align: center;
+    background-color: #CAC0B3;
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+
+.section-content.explanation p {
+    width:700px;
+    border: 1px solid yellow;
+    padding-top: 15px;
+    margin-left: 25%;
+}
